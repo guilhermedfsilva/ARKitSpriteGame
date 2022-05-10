@@ -17,6 +17,7 @@
 		7D4B97822829918A007C66D0 /* ARKitSpriteGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B97812829918A007C66D0 /* ARKitSpriteGameTests.swift */; };
 		7D4B978C2829918A007C66D0 /* ARKitSpriteGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B978B2829918A007C66D0 /* ARKitSpriteGameUITests.swift */; };
 		7D4B978E2829918A007C66D0 /* ARKitSpriteGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B978D2829918A007C66D0 /* ARKitSpriteGameUITestsLaunchTests.swift */; };
+		7D4B979B28299F7E007C66D0 /* ghost.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D4B979A28299F7E007C66D0 /* ghost.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		7D4B97872829918A007C66D0 /* ARKitSpriteGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitSpriteGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4B978B2829918A007C66D0 /* ARKitSpriteGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitSpriteGameUITests.swift; sourceTree = "<group>"; };
 		7D4B978D2829918A007C66D0 /* ARKitSpriteGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitSpriteGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D4B979A28299F7E007C66D0 /* ghost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ghost.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		7D4B976828299188007C66D0 /* ARKitSpriteGame */ = {
 			isa = PBXGroup;
 			children = (
+				7D4B979A28299F7E007C66D0 /* ghost.wav */,
 				7D4B976928299188007C66D0 /* AppDelegate.swift */,
 				7D4B976B28299188007C66D0 /* Scene.sks */,
 				7D4B976D28299188007C66D0 /* Scene.swift */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4B979B28299F7E007C66D0 /* ghost.wav in Resources */,
 				7D4B976C28299188007C66D0 /* Scene.sks in Resources */,
 				7D4B97782829918A007C66D0 /* LaunchScreen.storyboard in Resources */,
 				7D4B97752829918A007C66D0 /* Assets.xcassets in Resources */,
@@ -368,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
